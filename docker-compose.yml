@@ -1,0 +1,8 @@
+version: '2.4'
+services:
+        harshith:
+                image: coustom:v1
+                build: .
+                container_name: newdevops
+                ports: 
+                        - 3434:80
